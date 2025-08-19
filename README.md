@@ -80,9 +80,6 @@ Con esta app demostramos cómo, a través de prácticas ágiles y desarrollo ite
 -----
 
 
-Last Edited on: 09/11/2022
-
-
 
 
 
