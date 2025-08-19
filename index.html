@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Lista de Tareas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-tasks"></i>
+                    <h1>TaskFlow</h1>
+                </div>
+                <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="task-container">
+                <div class="date-section">
+                    <div class="date-display">
+                        <div class="date-number" id="dateNumber"></div>
+                        <div class="date-info">
+                            <div class="date-month" id="dateMonth"></div>
+                            <div class="date-year" id="dateYear"></div>
+                        </div>
+                    </div>
+                    <div class="date-text" id="dateText"></div>
+                </div>
+
+                <div class="input-section">
+                    <form class="task-form" onsubmit="addNewTask(event)">
+                        <div class="input-wrapper">
+                            <i class="fas fa-plus input-icon"></i>
+                            <input 
+                                type="text" 
+                                name="taskText" 
+                                id="taskInput"
+                                autocomplete="off" 
+                                placeholder="Agregar nueva tarea..." 
+                                class="task-input"
+                                maxlength="100"
+                            >
+                        </div>
+                        <button type="submit" class="add-btn" aria-label="Agregar tarea">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                    
+                    <div class="controls">
+                        <button type="button" class="control-btn sort-btn" onclick="renderOrderedTasks()" aria-label="Ordenar tareas">
+                            <i class="fas fa-sort"></i>
+                            <span>Ordenar</span>
+                        </button>
+                        <button type="button" class="control-btn clear-btn" onclick="clearCompletedTasks()" aria-label="Limpiar completadas">
+                            <i class="fas fa-trash"></i>
+                            <span>Limpiar</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="task-stats">
+                    <div class="stat">
+                        <span class="stat-number" id="totalTasks">0</span>
+                        <span class="stat-label">Total</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="completedTasks">0</span>
+                        <span class="stat-label">Completadas</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="pendingTasks">0</span>
+                        <span class="stat-label">Pendientes</span>
+                    </div>
+                </div>
+
+                <div class="tasks-section">
+                    <div class="section-header">
+                        <h2>Mis Tareas</h2>
+                        <div class="filter-tabs">
+                            <button class="filter-tab active" data-filter="all">Todas</button>
+                            <button class="filter-tab" data-filter="pending">Pendientes</button>
+                            <button class="filter-tab" data-filter="completed">Completadas</button>
+                        </div>
+                    </div>
+                    <div class="tasks-list" id="tasksContainer">
+                        <div class="empty-state" id="emptyState">
+                            <i class="fas fa-clipboard-list"></i>
+                            <h3>No hay tareas</h3>
+                            <p>Agrega tu primera tarea para comenzar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="scroll-indicator">
+            <div class="scroll-progress" id="scrollProgress"></div>
+        </div>
+    </div>
+
+    <div class="notification" id="notification">
+        <div class="notification-content">
+            <i class="notification-icon"></i>
+            <span class="notification-text"></span>
+        </div>
+    </div>
+</body>
+</html>
