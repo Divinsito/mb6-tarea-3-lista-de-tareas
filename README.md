@@ -34,7 +34,7 @@ Con esta app demostramos cómo, a través de prácticas ágiles y desarrollo ite
 
 <br>
 <p align="center">
-  <img src="./captura.png" alt="Vista de la app TaskFlow" width="700">
+  <img src="./image.png" alt="Vista de la app TaskFlow" width="700">
 </p>
 
 <br>
@@ -81,4 +81,5 @@ Con esta app demostramos cómo, a través de prácticas ágiles y desarrollo ite
 
 
 Last Edited on: 09/11/2022
+
 
