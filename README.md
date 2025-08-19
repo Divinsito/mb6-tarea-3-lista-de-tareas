@@ -1,5 +1,5 @@
 
-<h1 align="center"><b>Hola, somos el Grupo MB05 </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<h1 align="center"><b>Hola, somos el Grupo 02 (MB06) </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Bienvenid@+a+nuestro+proyecto+To-Do+List+App;Desarrollo+ágil+y+colaborativo;¡Organización+de+tareas+simple+y+efectiva!"></a>
@@ -10,7 +10,7 @@
 
 ### Objetivo del Proyecto
 
-La **To-Do List App** es una aplicación web ligera y práctica diseñada para impulsar la productividad personal desde cualquier navegador. Su propósito es brindar a los usuarios una forma clara y sencilla de gestionar sus tareas diarias, permitiendo crearlas, completarlas o eliminarlas en un entorno amigable y moderno.
+La **To-Do List App** Taskflow es una aplicación web ligera y práctica diseñada para impulsar la productividad personal desde cualquier navegador. Su propósito es brindar a los usuarios una forma clara y sencilla de gestionar sus tareas diarias, permitiendo crearlas, completarlas o eliminarlas en un entorno amigable y moderno.
 
 Construida en un solo Sprint aplicando la metodología **SCRUM**, este proyecto refleja no solo el desarrollo de una herramienta funcional, sino también la experiencia de trabajar de forma colaborativa con roles definidos, backlog priorizado y entregables claros.
 
@@ -78,6 +78,7 @@ Con esta app demostramos cómo, a través de prácticas ágiles y desarrollo ite
 <br>
 
 -----
+
 
 
 
