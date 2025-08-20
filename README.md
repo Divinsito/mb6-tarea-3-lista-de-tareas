@@ -10,7 +10,7 @@
 
 ### Objetivo del Proyecto
 
-La **To-Do List App** Taskflow es una aplicación web ligera y práctica diseñada para impulsar la productividad personal desde cualquier navegador. Su propósito es brindar a los usuarios una forma clara y sencilla de gestionar sus tareas diarias, permitiendo crearlas, completarlas o eliminarlas en un entorno amigable y moderno.
+La **To-Do List App** TaskFlow es una aplicación web ligera y práctica diseñada para impulsar la productividad personal desde cualquier navegador. Su propósito es brindar a los usuarios una forma clara y sencilla de gestionar sus tareas diarias, permitiendo crearlas, completarlas o eliminarlas en un entorno amigable y moderno.
 
 Construida en un solo Sprint aplicando la metodología **SCRUM**, este proyecto refleja no solo el desarrollo de una herramienta funcional, sino también la experiencia de trabajar de forma colaborativa con roles definidos, backlog priorizado y entregables claros.
 
@@ -31,7 +31,6 @@ Con esta app demostramos cómo, a través de prácticas ágiles y desarrollo ite
 🤝 Desarrollo colaborativo con GitHub + Trello + SCRUM.
 
 </p>
-
 <br>
 
 <p align="center">
@@ -41,7 +40,6 @@ Con esta app demostramos cómo, a través de prácticas ágiles y desarrollo ite
 
 <br>
 
-<br>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
@@ -79,7 +77,13 @@ Con esta app demostramos cómo, a través de prácticas ágiles y desarrollo ite
 
 <br>
 
------
+
+
+
+
+
+
+
 
 
 
