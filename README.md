@@ -33,8 +33,10 @@ Con esta app demostramos cómo, a través de prácticas ágiles y desarrollo ite
 </p>
 
 <br>
+
 <p align="center">
-  <img src="./image.png" alt="Vista de la app TaskFlow" width="700">
+  <img src="./imagen.png" alt="Vista modo claro TaskFlow" width="400" style="padding-right: 150px;"/>
+  <img src="./imagen2.png" alt="Vista modo oscuro TaskFlow" width="400"/>
 </p>
 
 <br>
@@ -78,6 +80,7 @@ Con esta app demostramos cómo, a través de prácticas ágiles y desarrollo ite
 <br>
 
 -----
+
 
 
 
