@@ -31,15 +31,17 @@ Con esta app demostramos cómo, a través de prácticas ágiles y desarrollo ite
 🤝 Desarrollo colaborativo con GitHub + Trello + SCRUM.
 
 </p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="./captura-dia.png" alt="Vista modo claro TaskFlow" width="400"/>
+    </td>
+    <td align="center" style="padding-left: 32px;">
+      <img src="./captura-noche.png" alt="Vista modo oscuro TaskFlow" width="400"/>
+    </td>
+  </tr>
+</table>
 
-<br>
-
-<p align="center">
-  <img src="./imagen.png" alt="Vista modo claro TaskFlow" width="400" style="padding-right: 150px;"/>
-  <img src="./imagen2.png" alt="Vista modo oscuro TaskFlow" width="400"/>
-</p>
-
-<br>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
@@ -81,6 +83,7 @@ Con esta app demostramos cómo, a través de prácticas ágiles y desarrollo ite
 
 
 Last Edited on: 09/11/2022
+
 
 
 
