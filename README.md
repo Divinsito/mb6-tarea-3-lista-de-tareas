@@ -35,8 +35,8 @@ Con esta app demostramos cómo, a través de prácticas ágiles y desarrollo ite
 <br>
 
 <p align="center">
-  <img src="./captura-dia.png" alt="Vista modo claro TaskFlow" width="400"/>
-  <img src="./captura-noche.png" alt="Vista modo oscuro TaskFlow" width="400"/>
+  <img src="./imagen.png" alt="Vista modo claro TaskFlow" width="400"/>
+  <img src="./imagen2.png" alt="Vista modo oscuro TaskFlow" width="400"/>
 </p>
 
 <br>
@@ -81,6 +81,7 @@ Con esta app demostramos cómo, a través de prácticas ágiles y desarrollo ite
 
 
 Last Edited on: 09/11/2022
+
 
 
 
